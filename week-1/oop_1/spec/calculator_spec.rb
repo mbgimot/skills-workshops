@@ -22,4 +22,17 @@ describe Calculator do
       expect(subject.subtract(Float::INFINITY, Float::INFINITY)).to be_nan
     end
   end
+<<<<<<< HEAD
+=======
+
+  describe '#print_answer' do
+    it 'pretty prints the answer' do
+      expect(print_answer(4)).to eq "The Answer is: 4"
+      expect(print_answer(6)).to eq "The Answer is: 6"
+      expect(print_answer(-1)).to eq "The Answer is: -1"
+      expect(print_answer(0)).to eq "The Answer is: 0"
+      expect(print_answer(Float::INFINITY)).to eq "The Answer is: Infinity"
+    end
+  end
+>>>>>>> 1b6a2bc752a71a9f0b8f7cedd61214b9ef7fb625
 end

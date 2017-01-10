@@ -18,31 +18,16 @@ Let's you build large systems by moving in tiny, obvious steps.
 
 Create a public repo and initialize RSpec within. Build out a rudimentary calculator _without using classes_. An example is available on the master branch for this directory.
 
-While building, you should define (and elicit definitions for):
+While building, you should elicit definitions for:
 
 - **Behaviour:** things a program does, largely synonymous with methods in a program.
-- **Encapsulation:** a way to wrap and group commonly used behaviour so your program is more modular.
+- **Single Responsibility Principle:** a unit in the program should have only one reason to change.
+- **Encapsulation:** wraps and groups related and commonly used behaviour so your program is more modular.
 - **Class:** The Object-Oriented way to wrap commonly used behaviour.
 
-###### User Stories
+#### Calculator user stories
 
-```
-As a mathematician
-So I can add numbers
-I want to add two numbers on my calc
-```
-
-```
-As a mathematician
-So I can subtract
-I want to subtract two numbers on my calc
-```
-
-```
-As mathematician
-So I can enjoy the output of the calculator
-I want a pretty output
-```
+See main README.
 
 ## Main (30 minutes)
 
@@ -52,7 +37,7 @@ Students should wrap the bare methods you wrote into a class structure. They can
 
 Choose two students' examples to share, and critique them. Then either demonstrate your solution, or use the [`plenary`](https://github.com/makersacademy/skills-workshops/tree/plenary) branch for this directory.
 
-### Possible reasonable solutions
+### Possible reasonable solutions (students, don't look at this until the workshop is over!)
 
 * Arithmetic class and Printer class.
 * monkey-patching Fixnum.
